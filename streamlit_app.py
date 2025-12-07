@@ -239,170 +239,170 @@ JOB_POSTINGS = {
 INTERVIEW_DATA: Dict[str, List[Dict]] = {
     "마케팅": [
         {
-            "title": "마케팅 직무 이해하기 - 실무 현직자 인터뷰",
+            "title": "마케팅 직무자의 하루 - 출근부터 퇴근까지",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "디지털 마케팅의 현재와 미래",
+            "title": "디지털 마케터의 일상 브이로그",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         },
         {
-            "title": "마케팅 분석가의 하루",
+            "title": "마케팅 분석가 출근 일상",
             "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
             "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
         }
     ],
     "제조": [
         {
-            "title": "제조업 생산관리 직무 소개",
+            "title": "제조업 생산관리자의 하루",
             "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
             "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
         },
         {
-            "title": "스마트팩토리 시대의 제조기술자",
+            "title": "공장 생산기술자 일상 브이로그",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "품질관리(QC)의 중요성",
+            "title": "품질관리자의 출근 일상",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         }
     ],
     "행정": [
         {
-            "title": "공공기관 행정 직무 가이드",
+            "title": "공공기관 행정가의 하루",
             "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
             "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
         },
         {
-            "title": "기업 행정팀의 역할과 업무",
+            "title": "기업 행정팀 일상 브이로그",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "인사행정 전문가로 성장하기",
+            "title": "인사담당자의 출근 일상",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         }
     ],
     "영업": [
         {
-            "title": "B2B 영업의 실제 사례",
+            "title": "B2B 영업사원의 하루",
             "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
             "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
         },
         {
-            "title": "영업 사원의 하루",
+            "title": "영업 담당자 출근 브이로그",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "고객관계관리(CRM) 활용법",
+            "title": "Account Manager의 일상",
             "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
             "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
         }
     ],
     "기술/개발": [
         {
-            "title": "소프트웨어 개발자의 일상",
+            "title": "백엔드 개발자의 하루",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         },
         {
-            "title": "백엔드 개발자 커리어 가이드",
+            "title": "프론트엔드 개발자 출근 브이로그",
             "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
             "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
         },
         {
-            "title": "클라우드 엔지니어링 입문",
+            "title": "클라우드 엔지니어의 일상",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         }
     ],
     "금융": [
         {
-            "title": "금융기관 입사자 가이드",
+            "title": "투자 분석가의 하루",
             "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
             "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
         },
         {
-            "title": "투자 분석가의 실무",
+            "title": "금융사 직원 출근 브이로그",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "리스크 관리 전문가 직무",
+            "title": "금융 상담사의 일상",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         }
     ],
     "의료/헬스케어": [
         {
-            "title": "의료기관 간호사 인터뷰",
+            "title": "간호사의 하루",
             "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
             "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
         },
         {
-            "title": "보건의료 행정가의 역할",
+            "title": "의료 행정가 출근 브이로그",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "의료용 기술 전문가",
+            "title": "의료 기술 전문가의 일상",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         }
     ],
     "교육": [
         {
-            "title": "교직의 현실과 보람",
+            "title": "교사의 하루",
             "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
             "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
         },
         {
-            "title": "교육 콘텐츠 개발자 인터뷰",
+            "title": "교육 기획자 출근 브이로그",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "온라인 교육 플랫폼 기획자",
+            "title": "에드테크 개발자의 일상",
             "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
             "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
         }
     ],
     "디자인": [
         {
-            "title": "UI/UX 디자이너 직무 소개",
+            "title": "UI/UX 디자이너의 하루",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         },
         {
-            "title": "그래픽 디자인 포트폴리오 팁",
+            "title": "그래픽 디자이너 출근 브이로그",
             "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
             "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
         },
         {
-            "title": "브랜드 아이덴티티 디자이너",
+            "title": "브랜드 디자이너의 일상",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         }
     ],
     "법률": [
         {
-            "title": "법무사의 일상과 진로",
+            "title": "법무사의 하루",
             "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
             "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
         },
         {
-            "title": "기업 법무팀 인터뷰",
+            "title": "기업 법무팀 출근 브이로그",
             "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
             "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
         },
         {
-            "title": "법학전문가로 성장하기",
+            "title": "법률 전문가의 일상",
             "link": "https://www.youtube.com/embed/9bZkp7q19f0",
             "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
         }
@@ -615,24 +615,18 @@ JOB_DETAILS: Dict[str, Dict] = {
 
 # 앱 헤더 섹션
 st.markdown("""
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem 2rem; border-radius: 20px; margin-bottom: 2rem; text-align: center;">
-    <h1 style="color: white; font-size: 3rem; margin: 0 0 1rem 0; font-weight: 800;">🎬 멘토 생성기</h1>
-    <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; margin: 0; line-height: 1.7; font-weight: 500;">
-        나의 꿈의 직업을 현직자의 목소리로 들어보세요<br>
-        실제 일하는 사람들의 인터뷰와 생생한 경험담을 통해<br>
-        당신의 커리어 경로를 설계하고 올바른 선택을 할 수 있도록 도와드립니다
-    </p>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1.5rem 2rem; border-radius: 20px; margin-bottom: 2rem; text-align: center;">
+    <h1 style="color: white; font-size: 2.2rem; margin: 0; font-weight: 800;">🎬 멘토 생성기</h1>
 </div>
 """, unsafe_allow_html=True)
 
 # 멘토 이미지 섹션
 st.markdown("""
-<div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap;">
+<div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
     <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
     <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
     <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
     <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
-    <img src="https://images.unsplash.com/photo-1516912481808-846ec9b29ffd?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
 </div>
 """, unsafe_allow_html=True)
 
@@ -676,8 +670,8 @@ if st.session_state.get("show_results", False):
     current_job = st.session_state.get('selected_job', selected_job)
     
     st.markdown(f"""
-    <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 0.8rem 1.5rem; border-radius: 8px; margin-bottom: 2rem; text-align: center;">
-        <span style="color: white; font-weight: 600; font-size: 1rem;">📌 {current_field} &gt; 💼 {current_job}</span>
+    <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 0.4rem 1rem; border-radius: 8px; margin-bottom: 2rem; text-align: center;">
+        <span style="color: white; font-weight: 600; font-size: 0.85rem;">📌 {current_field} &gt; 💼 {current_job}</span>
     </div>
     """, unsafe_allow_html=True)
     
@@ -696,21 +690,13 @@ if st.session_state.get("show_results", False):
         
         # 직무 설명 섹션
         st.markdown(f'<div class="job-info-box">', unsafe_allow_html=True)
-        st.markdown(f"""
-        <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 0.6rem 1rem; border-radius: 6px; margin-bottom: 1rem; width: fit-content;">
-            <span style="color: white; font-weight: 600; font-size: 0.9rem;">💡 직무 설명</span>
-        </div>
-        """, unsafe_allow_html=True)
+        st.markdown(f"**💡 직무 설명**")
         st.markdown(f'<p class="small-text">{job_info["detailed_desc"]}</p>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
         
         # 예상 연봉 섹션
         st.markdown(f'<div class="job-info-box">', unsafe_allow_html=True)
-        st.markdown(f"""
-        <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 0.6rem 1rem; border-radius: 6px; margin-bottom: 1rem; width: fit-content;">
-            <span style="color: white; font-weight: 600; font-size: 0.9rem;">💰 예상 연봉</span>
-        </div>
-        """, unsafe_allow_html=True)
+        st.markdown(f"**💰 예상 연봉**")
         st.markdown(f'<p class="small-text">{job_info["salary"]}</p>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
         
@@ -728,7 +714,7 @@ if st.session_state.get("show_results", False):
         
         st.markdown(f"<a href='{job_info['job_url']}' target='_blank' style='display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; margin-top: 1rem; font-weight: 600;'>원티드에서 더 많은 채용공고 보기 →</a>", unsafe_allow_html=True)
         
-        st.markdown("### 📺 현직자 인터뷰")
+        st.markdown("### 📺 현직자의 하루")
         
         videos = INTERVIEW_DATA[current_field]
         
@@ -744,6 +730,5 @@ if st.session_state.get("show_results", False):
                         st.markdown(f"**{i+j+1}. {video['title']}**")
                         st.markdown(f"[🎥 YouTube에서 보기]({video['link'].replace('embed/', 'watch?v=')})")
                         st.markdown(f"*3~5분 분량*")
-                        st.markdown('</div>', unsafe_allow_html=True)
         
         st.markdown('</div>', unsafe_allow_html=True)
