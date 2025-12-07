@@ -240,171 +240,171 @@ INTERVIEW_DATA: Dict[str, List[Dict]] = {
     "마케팅": [
         {
             "title": "마케팅 직무자의 하루 - 출근부터 퇴근까지",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/W-8ydXqWEAo",
+            "thumbnail": "https://i.ytimg.com/vi/W-8ydXqWEAo/maxresdefault.jpg"
         },
         {
             "title": "디지털 마케터의 일상 브이로그",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/HGsGmXDIpSU",
+            "thumbnail": "https://i.ytimg.com/vi/HGsGmXDIpSU/maxresdefault.jpg"
         },
         {
             "title": "마케팅 분석가 출근 일상",
-            "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
-            "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/kYbv0YPeNMg",
+            "thumbnail": "https://i.ytimg.com/vi/kYbv0YPeNMg/maxresdefault.jpg"
         }
     ],
     "제조": [
         {
             "title": "제조업 생산관리자의 하루",
-            "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
-            "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/oBJKxOi0Noo",
+            "thumbnail": "https://i.ytimg.com/vi/oBJKxOi0Noo/maxresdefault.jpg"
         },
         {
             "title": "공장 생산기술자 일상 브이로그",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/Ys3h4FPhOkE",
+            "thumbnail": "https://i.ytimg.com/vi/Ys3h4FPhOkE/maxresdefault.jpg"
         },
         {
             "title": "품질관리자의 출근 일상",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/5JxGq5TJr80",
+            "thumbnail": "https://i.ytimg.com/vi/5JxGq5TJr80/maxresdefault.jpg"
         }
     ],
     "행정": [
         {
             "title": "공공기관 행정가의 하루",
-            "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
-            "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/sRxAO1lYv9I",
+            "thumbnail": "https://i.ytimg.com/vi/sRxAO1lYv9I/maxresdefault.jpg"
         },
         {
             "title": "기업 행정팀 일상 브이로그",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/7t0vHoAb0eg",
+            "thumbnail": "https://i.ytimg.com/vi/7t0vHoAb0eg/maxresdefault.jpg"
         },
         {
             "title": "인사담당자의 출근 일상",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/W-8ydXqWEAo",
+            "thumbnail": "https://i.ytimg.com/vi/W-8ydXqWEAo/maxresdefault.jpg"
         }
     ],
     "영업": [
         {
             "title": "B2B 영업사원의 하루",
-            "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
-            "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/HGsGmXDIpSU",
+            "thumbnail": "https://i.ytimg.com/vi/HGsGmXDIpSU/maxresdefault.jpg"
         },
         {
             "title": "영업 담당자 출근 브이로그",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/kYbv0YPeNMg",
+            "thumbnail": "https://i.ytimg.com/vi/kYbv0YPeNMg/maxresdefault.jpg"
         },
         {
             "title": "Account Manager의 일상",
-            "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
-            "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/W-8ydXqWEAo",
+            "thumbnail": "https://i.ytimg.com/vi/W-8ydXqWEAo/maxresdefault.jpg"
         }
     ],
     "기술/개발": [
         {
             "title": "백엔드 개발자의 하루",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/oBJKxOi0Noo",
+            "thumbnail": "https://i.ytimg.com/vi/oBJKxOi0Noo/maxresdefault.jpg"
         },
         {
             "title": "프론트엔드 개발자 출근 브이로그",
-            "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
-            "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/Ys3h4FPhOkE",
+            "thumbnail": "https://i.ytimg.com/vi/Ys3h4FPhOkE/maxresdefault.jpg"
         },
         {
             "title": "클라우드 엔지니어의 일상",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/5JxGq5TJr80",
+            "thumbnail": "https://i.ytimg.com/vi/5JxGq5TJr80/maxresdefault.jpg"
         }
     ],
     "금융": [
         {
             "title": "투자 분석가의 하루",
-            "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
-            "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/sRxAO1lYv9I",
+            "thumbnail": "https://i.ytimg.com/vi/sRxAO1lYv9I/maxresdefault.jpg"
         },
         {
             "title": "금융사 직원 출근 브이로그",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/7t0vHoAb0eg",
+            "thumbnail": "https://i.ytimg.com/vi/7t0vHoAb0eg/maxresdefault.jpg"
         },
         {
             "title": "금융 상담사의 일상",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/HGsGmXDIpSU",
+            "thumbnail": "https://i.ytimg.com/vi/HGsGmXDIpSU/maxresdefault.jpg"
         }
     ],
     "의료/헬스케어": [
         {
             "title": "간호사의 하루",
-            "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
-            "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/kYbv0YPeNMg",
+            "thumbnail": "https://i.ytimg.com/vi/kYbv0YPeNMg/maxresdefault.jpg"
         },
         {
             "title": "의료 행정가 출근 브이로그",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/W-8ydXqWEAo",
+            "thumbnail": "https://i.ytimg.com/vi/W-8ydXqWEAo/maxresdefault.jpg"
         },
         {
             "title": "의료 기술 전문가의 일상",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/oBJKxOi0Noo",
+            "thumbnail": "https://i.ytimg.com/vi/oBJKxOi0Noo/maxresdefault.jpg"
         }
     ],
     "교육": [
         {
             "title": "교사의 하루",
-            "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
-            "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/Ys3h4FPhOkE",
+            "thumbnail": "https://i.ytimg.com/vi/Ys3h4FPhOkE/maxresdefault.jpg"
         },
         {
             "title": "교육 기획자 출근 브이로그",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/5JxGq5TJr80",
+            "thumbnail": "https://i.ytimg.com/vi/5JxGq5TJr80/maxresdefault.jpg"
         },
         {
             "title": "에드테크 개발자의 일상",
-            "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
-            "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/sRxAO1lYv9I",
+            "thumbnail": "https://i.ytimg.com/vi/sRxAO1lYv9I/maxresdefault.jpg"
         }
     ],
     "디자인": [
         {
             "title": "UI/UX 디자이너의 하루",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/7t0vHoAb0eg",
+            "thumbnail": "https://i.ytimg.com/vi/7t0vHoAb0eg/maxresdefault.jpg"
         },
         {
             "title": "그래픽 디자이너 출근 브이로그",
-            "link": "https://www.youtube.com/embed/jNQXAC9IVRw",
-            "thumbnail": "https://i.ytimg.com/vi/jNQXAC9IVRw/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/HGsGmXDIpSU",
+            "thumbnail": "https://i.ytimg.com/vi/HGsGmXDIpSU/maxresdefault.jpg"
         },
         {
             "title": "브랜드 디자이너의 일상",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/kYbv0YPeNMg",
+            "thumbnail": "https://i.ytimg.com/vi/kYbv0YPeNMg/maxresdefault.jpg"
         }
     ],
     "법률": [
         {
             "title": "법무사의 하루",
-            "link": "https://www.youtube.com/embed/ZYd1oMBMSz8",
-            "thumbnail": "https://i.ytimg.com/vi/ZYd1oMBMSz8/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/W-8ydXqWEAo",
+            "thumbnail": "https://i.ytimg.com/vi/W-8ydXqWEAo/maxresdefault.jpg"
         },
         {
             "title": "기업 법무팀 출근 브이로그",
-            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/oBJKxOi0Noo",
+            "thumbnail": "https://i.ytimg.com/vi/oBJKxOi0Noo/maxresdefault.jpg"
         },
         {
             "title": "법률 전문가의 일상",
-            "link": "https://www.youtube.com/embed/9bZkp7q19f0",
-            "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg"
+            "link": "https://www.youtube.com/embed/Ys3h4FPhOkE",
+            "thumbnail": "https://i.ytimg.com/vi/Ys3h4FPhOkE/maxresdefault.jpg"
         }
     ]
 }
@@ -623,10 +623,23 @@ st.markdown("""
 # 멘토 이미지 섹션
 st.markdown("""
 <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
-    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
-    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
-    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
     <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+</div>
+""", unsafe_allow_html=True)
+
+# 부제목 헤더 섹션
+st.markdown("""
+<div style="background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%); padding: 2rem; border-radius: 15px; margin-bottom: 2rem; border-left: 5px solid #667eea; text-align: center;">
+    <h2 style="color: #667eea; font-size: 1.5rem; margin: 0 0 1rem 0; font-weight: 700;">🎯 멘토 생성기에 오신 것을 환영합니다</h2>
+    <p style="color: #555; font-size: 1rem; margin: 0; line-height: 1.6;">
+        현직자의 실제 업무 경험을 통해 당신의 꿈의 직업을 발견하세요.<br>
+        마케팅, 제조, 행정, 영업, 기술/개발, 금융, 의료, 교육, 디자인, 법률 등<br>
+        다양한 직무 분야의 현직자들이 하루하루 어떻게 일하는지 살펴보고,<br>
+        실제 채용공고까지 확인할 수 있습니다. 당신의 미래 커리어를 함께 준비해보세요!
+    </p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -680,7 +693,7 @@ if st.session_state.get("show_results", False):
         
         # 제목 스타일 변경
         st.markdown(f"""
-        <div style="background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem; border-left: 5px solid #667eea;">
+        <div style="background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%); padding: 0.8rem; border-radius: 12px; margin-bottom: 1.5rem; border-left: 5px solid #667eea;">
             <h3 style="margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">🌟 {current_field} - {current_job} 멘토</h3>
         </div>
         """, unsafe_allow_html=True)
@@ -689,13 +702,12 @@ if st.session_state.get("show_results", False):
         job_info = JOB_DETAILS[current_field][current_job]
         
         # 직무 설명 섹션
-        st.markdown(f'<div class="job-info-box">', unsafe_allow_html=True)
+        st.markdown(f'<div style="background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%); padding: 1rem; border-radius: 12px; margin-bottom: 0.8rem; border-left: 5px solid #667eea;">', unsafe_allow_html=True)
         st.markdown(f"**💡 직무 설명**")
         st.markdown(f'<p class="small-text">{job_info["detailed_desc"]}</p>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
         
-        # 예상 연봉 섹션
-        st.markdown(f'<div class="job-info-box">', unsafe_allow_html=True)
+        st.markdown(f'<div style="background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%); padding: 1rem; border-radius: 12px; margin-bottom: 0.8rem; border-left: 5px solid #667eea;">', unsafe_allow_html=True)
         st.markdown(f"**💰 예상 연봉**")
         st.markdown(f'<p class="small-text">{job_info["salary"]}</p>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
