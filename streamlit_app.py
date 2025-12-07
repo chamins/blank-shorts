@@ -117,7 +117,125 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# 직업 분야별 현직자 인터뷰 영상 데이터 (한국어만)
+# 채용공고 예시 데이터
+JOB_POSTINGS = {
+    "마케팅": {
+        "Product Manager": [
+            {"title": "Product Manager (SaaS)", "company": "Naver", "location": "서울시 강남구"},
+            {"title": "Product Manager", "company": "Coupang", "location": "서울시 강남구"},
+            {"title": "Senior Product Manager", "company": "Kakao", "location": "제주시 애월읍"},
+            {"title": "Product Manager (B2B)", "company": "Woowa Bros", "location": "서울시 강남구"},
+            {"title": "Product Manager", "company": "당근마켓", "location": "서울시 강남구"}
+        ],
+        "Digital Marketing": [
+            {"title": "디지털 마케터", "company": "직방", "location": "서울시 중구"},
+            {"title": "Performance Marketing 담당자", "company": "버킷플레이스", "location": "서울시 강남구"},
+            {"title": "SNS 마케터", "company": "쿠팡", "location": "서울시 강남구"},
+            {"title": "Digital Marketing Manager", "company": "삼성전자", "location": "서울시 강남구"},
+            {"title": "마케팅 담당자", "company": "하이퍼커넥트", "location": "서울시 강남구"}
+        ],
+        "마케팅 분석가": [
+            {"title": "마케팅 분석가", "company": "우아한형제들", "location": "서울시 강남구"},
+            {"title": "데이터 분석가 (마케팅)", "company": "당근마켓", "location": "서울시 강남구"},
+            {"title": "Growth Analytics 담당자", "company": "야놀자", "location": "서울시 강남구"},
+            {"title": "마케팅 분석 전문가", "company": "스포카", "location": "서울시 강남구"},
+            {"title": "분석 엔지니어", "company": "숨고", "location": "서울시 강남구"}
+        ]
+    },
+    "제조": {
+        "생산관리": [
+            {"title": "생산관리 담당자", "company": "현대자동차", "location": "울산시 남구"},
+            {"title": "생산계획팀", "company": "삼성전자", "location": "경주시 중심지"},
+            {"title": "생산관리사", "company": "LG전자", "location": "서울시 강서구"},
+            {"title": "공정관리 담당자", "company": "SK하이닉스", "location": "이천시 부발읍"},
+            {"title": "생산관리 전문가", "company": "현대기아차", "location": "광주광역시"}
+        ],
+        "생산기술": [
+            {"title": "공정기술 엔지니어", "company": "삼성전자", "location": "경주시"},
+            {"title": "생산기술 담당자", "company": "현대자동차", "location": "울산시 남구"},
+            {"title": "설비 엔지니어", "company": "SK하이닉스", "location": "이천시"},
+            {"title": "공정개선 담당자", "company": "LG화학", "location": "여수시"},
+            {"title": "기술 지원팀", "company": "포스코", "location": "포항시 남구"}
+        ],
+        "품질관리(QC)": [
+            {"title": "품질관리 담당자", "company": "삼성전자", "location": "경주시"},
+            {"title": "QC 엔지니어", "company": "현대자동차", "location": "울산시"},
+            {"title": "품질보증 담당자", "company": "LG전자", "location": "서울시"},
+            {"title": "검사원", "company": "SK하이닉스", "location": "이천시"},
+            {"title": "품질관리 전문가", "company": "한국전력", "location": "대전시"}
+        ]
+    },
+    "행정": {
+        "기업 행정": [
+            {"title": "행정담당자", "company": "삼성그룹", "location": "서울시 강남구"},
+            {"title": "총무팀", "company": "LG그룹", "location": "서울시 여의도"},
+            {"title": "행정관리사", "company": "SK그룹", "location": "서울시 중심지"},
+            {"title": "기업 행정가", "company": "현대그룹", "location": "서울시 강남구"},
+            {"title": "행정 담당자", "company": "포스코", "location": "포항시"}
+        ],
+        "공공기관 행정": [
+            {"title": "행정직 공무원", "company": "대한민국 정부", "location": "서울시"},
+            {"title": "공공기관 행정가", "company": "한국철도공사", "location": "대전시"},
+            {"title": "행정 전문가", "company": "한국전력", "location": "대전시"},
+            {"title": "행정직", "company": "기획재정부", "location": "서울시"},
+            {"title": "행정 담당자", "company": "서울시청", "location": "서울시 중구"}
+        ],
+        "인사담당자": [
+            {"title": "인사담당자", "company": "삼성전자", "location": "서울시 강남구"},
+            {"title": "HR 담당자", "company": "LG전자", "location": "서울시 강서구"},
+            {"title": "인사관리사", "company": "현대자동차", "location": "울산시"},
+            {"title": "인사팀", "company": "SK하이닉스", "location": "이천시"},
+            {"title": "채용담당자", "company": "쿠팡", "location": "서울시 강남구"}
+        ]
+    },
+    "영업": {
+        "B2B 영업": [
+            {"title": "B2B 영업사원", "company": "쿠팡", "location": "서울시 강남구"},
+            {"title": "기업영업 담당자", "company": "우아한형제들", "location": "서울시 강남구"},
+            {"title": "B2B 세일즈", "company": "직방", "location": "서울시 중구"},
+            {"title": "엔터프라이즈 세일즈", "company": "토스", "location": "서울시 강남구"},
+            {"title": "기업영업가", "company": "당근마켓", "location": "서울시 강남구"}
+        ],
+        "B2C 영업": [
+            {"title": "영업사원", "company": "삼성전자", "location": "서울시 강남구"},
+            {"title": "매장 매니저", "company": "롯데백화점", "location": "서울시 중구"},
+            {"title": "판매원", "company": "현대자동차", "location": "서울시 강남구"},
+            {"title": "영업 담당자", "company": "LG전자", "location": "서울시 강서구"},
+            {"title": "영업 전사", "company": "한샘", "location": "서울시 강동구"}
+        ],
+        "Account Manager": [
+            {"title": "Account Manager", "company": "Naver", "location": "서울시 강남구"},
+            {"title": "고객관리 담당자", "company": "Kakao", "location": "제주시"},
+            {"title": "AM (Account Manager)", "company": "SK텔레콤", "location": "서울시 강남구"},
+            {"title": "고객성공팀", "company": "당근마켓", "location": "서울시 강남구"},
+            {"title": "고객관리자", "company": "쿠팡", "location": "서울시 강남구"}
+        ]
+    },
+    "기술/개발": {
+        "백엔드 개발자": [
+            {"title": "백엔드 개발자", "company": "쿠팡", "location": "서울시 강남구"},
+            {"title": "Server Developer", "company": "Naver", "location": "서울시 강남구"},
+            {"title": "백엔드 엔지니어", "company": "Kakao", "location": "서울시 강남구"},
+            {"title": "Backend Software Engineer", "company": "당근마켓", "location": "서울시 강남구"},
+            {"title": "Java 개발자", "company": "우아한형제들", "location": "서울시 강남구"}
+        ],
+        "프론트엔드 개발자": [
+            {"title": "프론트엔드 개발자", "company": "당근마켓", "location": "서울시 강남구"},
+            {"title": "Frontend Engineer", "company": "직방", "location": "서울시 중구"},
+            {"title": "웹 개발자", "company": "숨고", "location": "서울시 강남구"},
+            {"title": "React 개발자", "company": "토스", "location": "서울시 강남구"},
+            {"title": "Frontend Developer", "company": "야놀자", "location": "서울시 강남구"}
+        ],
+        "클라우드 엔지니어": [
+            {"title": "클라우드 엔지니어", "company": "Naver", "location": "서울시 강남구"},
+            {"title": "Cloud Architect", "company": "Kakao", "location": "서울시 강남구"},
+            {"title": "인프라 엔지니어", "company": "쿠팡", "location": "서울시 강남구"},
+            {"title": "DevOps Engineer", "company": "당근마켓", "location": "서울시 강남구"},
+            {"title": "클라우드 운영자", "company": "라이젠", "location": "서울시 강남구"}
+        ]
+    }
+}
+
 INTERVIEW_DATA: Dict[str, List[Dict]] = {
     "마케팅": [
         {
@@ -495,10 +613,27 @@ JOB_DETAILS: Dict[str, Dict] = {
     }
 }
 
-# 앱 제목
-st.markdown("<h1>🎬 멘토 생성기</h1>", unsafe_allow_html=True)
-st.markdown('<p class="subtitle">현직자의 실무 경험과 실제 채용 공고로 꿈의 직업을 발견하세요</p>', unsafe_allow_html=True)
-st.divider()
+# 앱 헤더 섹션
+st.markdown("""
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem 2rem; border-radius: 20px; margin-bottom: 2rem; text-align: center;">
+    <h1 style="color: white; font-size: 3rem; margin-bottom: 1rem; font-weight: 800;">🎬 멘토 생성기</h1>
+    <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin: 0; line-height: 1.8; font-weight: 500;">
+        <strong>나의 꿈의 직업을 현직자의 목소리로 들어보세요</strong><br>
+        실제 일하는 사람들의 인터뷰와 생생한 경험담을 통해<br>
+        당신의 커리어 경로를 설계하고 올바른 선택을 할 수 있도록 도와드립니다.<br>
+        <br>
+        📺 현직자 인터뷰로 직무 이해 → 💼 맞춤형 채용공고 추천 → 🚀 성공적인 취업까지<br>
+        멘토 생성기와 함께 당신의 미래를 설계하세요!
+    </p>
+    <div style="margin-top: 2rem; display: flex; justify-content: center; gap: 1rem;">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
+        <img src="https://images.unsplash.com/photo-1516912481808-846ec9b29ffd?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 # 선택 섹션
 with st.container():
@@ -528,8 +663,6 @@ with st.container():
     
     st.markdown('</div>', unsafe_allow_html=True)
 
-st.divider()
-
 # 추천 결과 표시
 if recommend_button or "show_results" not in st.session_state:
     st.session_state.selected_field = selected_field
@@ -537,13 +670,25 @@ if recommend_button or "show_results" not in st.session_state:
     st.session_state.show_results = True
 
 if st.session_state.get("show_results", False):
+    # 선택한 분야 표시 (작은 세련된 바)
+    current_field = st.session_state.get('selected_field', selected_field)
+    current_job = st.session_state.get('selected_job', selected_job)
+    
+    st.markdown(f"""
+    <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 0.8rem 1.5rem; border-radius: 8px; margin-bottom: 2rem; text-align: center;">
+        <span style="color: white; font-weight: 600; font-size: 1rem;">📌 {current_field} &gt; 💼 {current_job}</span>
+    </div>
+    """, unsafe_allow_html=True)
+    
     with st.container():
         st.markdown('<div class="result-section">', unsafe_allow_html=True)
         
-        current_field = st.session_state.get('selected_field', selected_field)
-        current_job = st.session_state.get('selected_job', selected_job)
-        
-        st.markdown(f"### 🌟 '{current_field}' - '{current_job}' 멘토")
+        # 제목 스타일 변경
+        st.markdown(f"""
+        <div style="background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem; border-left: 5px solid #667eea;">
+            <h3 style="margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">🌟 {current_field} - {current_job} 멘토</h3>
+        </div>
+        """, unsafe_allow_html=True)
         
         # 직무 정보
         job_info = JOB_DETAILS[current_field][current_job]
@@ -561,30 +706,36 @@ if st.session_state.get("show_results", False):
         st.markdown('</div>', unsafe_allow_html=True)
         
         # 채용공고 링크 섹션
-        st.markdown(f'<div class="job-link-box">', unsafe_allow_html=True)
-        st.markdown(f"**🔗 채용공고 보기**")
-        st.markdown(f"[원티드에서 '{current_job}' 채용공고 보기]({job_info['job_url']})")
-        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown(f"**🔗 실제 채용공고 (3~5개 예시)**")
+        postings = JOB_POSTINGS.get(current_field, {}).get(current_job, [])
+        
+        for posting in postings[:5]:
+            st.markdown(f"""
+            <div style="background: linear-gradient(135deg, #fff0f5 0%, #ffe4f0 100%); padding: 1rem; border-radius: 10px; margin-bottom: 0.8rem; border-left: 4px solid #e85b8a;">
+                <strong>{posting['title']}</strong><br>
+                <span style="font-size: 0.9rem; color: #555;">📍 {posting['company']} | {posting['location']}</span>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        st.markdown(f"<a href='{job_info['job_url']}' target='_blank' style='display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; margin-top: 1rem; font-weight: 600;'>원티드에서 더 많은 채용공고 보기 →</a>", unsafe_allow_html=True)
         
         st.markdown("---")
-        st.markdown("### 📺 현직자 인터뷰 (한국어)")
+        st.markdown("### 📺 현직자 인터뷰")
         
         videos = INTERVIEW_DATA[current_field]
         
-        # 영상 표시
-        for idx, video in enumerate(videos, 1):
-            st.markdown(f'<div class="video-card">', unsafe_allow_html=True)
-            st.markdown(f"**{idx}. {video['title']}**")
-            
-            col1, col2 = st.columns([1, 2])
-            
-            with col1:
-                st.image(video['thumbnail'], use_column_width=True)
-            
-            with col2:
-                st.markdown(f"[🎥 YouTube에서 보기]({video['link'].replace('embed/', 'watch?v=')})")
-                st.markdown(f"*3~5분 분량의 현직자 인터뷰 영상*")
-            
-            st.markdown('</div>', unsafe_allow_html=True)
+        # 3개씩 한 줄에 표시
+        for i in range(0, len(videos), 3):
+            cols = st.columns(3)
+            for j, col in enumerate(cols):
+                if i + j < len(videos):
+                    video = videos[i + j]
+                    with col:
+                        st.markdown(f'<div class="video-card">', unsafe_allow_html=True)
+                        st.image(video['thumbnail'], use_column_width=True)
+                        st.markdown(f"**{i+j+1}. {video['title']}**")
+                        st.markdown(f"[🎥 YouTube에서 보기]({video['link'].replace('embed/', 'watch?v=')})")
+                        st.markdown(f"*3~5분 분량*")
+                        st.markdown('</div>', unsafe_allow_html=True)
         
         st.markdown('</div>', unsafe_allow_html=True)
