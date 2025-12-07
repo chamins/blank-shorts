@@ -616,22 +616,23 @@ JOB_DETAILS: Dict[str, Dict] = {
 # 앱 헤더 섹션
 st.markdown("""
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem 2rem; border-radius: 20px; margin-bottom: 2rem; text-align: center;">
-    <h1 style="color: white; font-size: 3rem; margin-bottom: 1rem; font-weight: 800;">🎬 멘토 생성기</h1>
-    <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin: 0; line-height: 1.8; font-weight: 500;">
-        <strong>나의 꿈의 직업을 현직자의 목소리로 들어보세요</strong><br>
+    <h1 style="color: white; font-size: 3rem; margin: 0 0 1rem 0; font-weight: 800;">🎬 멘토 생성기</h1>
+    <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; margin: 0; line-height: 1.7; font-weight: 500;">
+        나의 꿈의 직업을 현직자의 목소리로 들어보세요<br>
         실제 일하는 사람들의 인터뷰와 생생한 경험담을 통해<br>
-        당신의 커리어 경로를 설계하고 올바른 선택을 할 수 있도록 도와드립니다.<br>
-        <br>
-        📺 현직자 인터뷰로 직무 이해 → 💼 맞춤형 채용공고 추천 → 🚀 성공적인 취업까지<br>
-        멘토 생성기와 함께 당신의 미래를 설계하세요!
+        당신의 커리어 경로를 설계하고 올바른 선택을 할 수 있도록 도와드립니다
     </p>
-    <div style="margin-top: 2rem; display: flex; justify-content: center; gap: 1rem;">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
-        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
-        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
-        <img src="https://images.unsplash.com/photo-1516912481808-846ec9b29ffd?w=150&h=150&fit=crop" style="border-radius: 50%; width: 100px; height: 100px; border: 3px solid white;">
-    </div>
+</div>
+""", unsafe_allow_html=True)
+
+# 멘토 이미지 섹션
+st.markdown("""
+<div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap;">
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
+    <img src="https://images.unsplash.com/photo-1516912481808-846ec9b29ffd?w=150&h=150&fit=crop" style="border-radius: 50%; width: 90px; height: 90px; border: 3px solid #667eea; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
 </div>
 """, unsafe_allow_html=True)
 
@@ -695,13 +696,21 @@ if st.session_state.get("show_results", False):
         
         # 직무 설명 섹션
         st.markdown(f'<div class="job-info-box">', unsafe_allow_html=True)
-        st.markdown(f"**💡 직무 설명**")
+        st.markdown(f"""
+        <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 0.6rem 1rem; border-radius: 6px; margin-bottom: 1rem; width: fit-content;">
+            <span style="color: white; font-weight: 600; font-size: 0.9rem;">💡 직무 설명</span>
+        </div>
+        """, unsafe_allow_html=True)
         st.markdown(f'<p class="small-text">{job_info["detailed_desc"]}</p>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
         
         # 예상 연봉 섹션
         st.markdown(f'<div class="job-info-box">', unsafe_allow_html=True)
-        st.markdown(f"**💰 예상 연봉**")
+        st.markdown(f"""
+        <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 0.6rem 1rem; border-radius: 6px; margin-bottom: 1rem; width: fit-content;">
+            <span style="color: white; font-weight: 600; font-size: 0.9rem;">💰 예상 연봉</span>
+        </div>
+        """, unsafe_allow_html=True)
         st.markdown(f'<p class="small-text">{job_info["salary"]}</p>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
         
@@ -719,7 +728,6 @@ if st.session_state.get("show_results", False):
         
         st.markdown(f"<a href='{job_info['job_url']}' target='_blank' style='display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; margin-top: 1rem; font-weight: 600;'>원티드에서 더 많은 채용공고 보기 →</a>", unsafe_allow_html=True)
         
-        st.markdown("---")
         st.markdown("### 📺 현직자 인터뷰")
         
         videos = INTERVIEW_DATA[current_field]
