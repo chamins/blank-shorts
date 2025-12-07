@@ -436,7 +436,7 @@ JOB_DETAILS: Dict[str, Dict] = {
             "salary": "5,000~10,000만원",
             "job_url": "https://www.wanted.co.kr/search?query=법률+전문가"
         }
-    ]
+    }
 }
 
 
